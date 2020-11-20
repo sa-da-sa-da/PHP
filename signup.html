@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>用户注册</title>
+    <style type="text/css">
+    body,td,th {
+	color: #066;
+}
+    .fist {
+	color: #000;
+}
+    </style>
+    </head>
+    <body background="1.JPG">
+        <h1 align="center" class="fist">请输入需要注册的信息</h1>
+        <form action="signup.php" method="POST">
+          <h3>&nbsp;</h3>
+          <h3 align="center">&nbsp;</h3>
+          <h3 align="center">账号</h3>
+                <div align="center">
+                  <input name="name" type="text" placeholder="请输入账号" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" size="20">
+                </div>
+            <h3 align="center">密码</h3>
+                <div align="center">
+                  <input name="password" type="text" placeholder="请输入密码" size="20"  >
+                </div>
+            <h3 align="center">学号</h3>
+                <div align="center">
+                  <input name="StuNumber" type="text" placeholder="请输入学号" size="20" id="StuNumber">
+                </div>
+            <h3 align="center">班级</h3>
+                <p align="center">
+                  <input name="Stuclass" type="text" placeholder="请输您的班级" size="20" id="Stuclass">
+                </p>
+                <p align="center">
+                  <input type="submit" value="立即注册" class="submit" name="submit">
+                </p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+        </form>
+    </body>
+</html>

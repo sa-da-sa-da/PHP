@@ -1,0 +1,50 @@
+<html>
+<head>
+    <meta charset="utf-8">
+<title>登录</title>
+<style type="text/css">
+body {
+	color: #A9DBF6;
+}
+body,td,th {
+	color: #066;
+	font-weight: bold;
+}
+.TWO {
+	color: #C60;
+}
+.THREE {
+	color: #000;
+	font-weight: bold;
+}
+.Q {
+	font-weight: bold;
+}
+</style>
+</head>
+<body background="1.JPG">
+    <form action="login.php" method="POST">
+        <div >
+          <h1 align="center" class="TWO">欢迎登录</h1>
+            <p align="center">&nbsp;</p><div align="center">账号：
+                <input autofocus  name="name" placeholder="请输入账号" type="text">
+          </div>
+            </p>
+            <p align="center">
+              <label class="Q"  style="font-size: 14px; font-weight: bold;">密码：</label>
+                <input  name="password" placeholder="请输入密码" type="password">
+          </p>
+      </div>
+        <div >
+            <div align="center">
+              <input name="submit" onClick="login()" type="submit" value="登录">
+            </div>   
+        </div>
+</form>
+    <br>
+       <h7>
+         <div align="center"><span class="THREE">还没有账户？点击</span><a href="signup.html">注册</a></div>
+       </h7>
+       <div align="center"></div>
+</body>
+</html>
